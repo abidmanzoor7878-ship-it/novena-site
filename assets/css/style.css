@@ -2,6 +2,10 @@
     --blue-color: rgb(34, 58, 102);
     
 }
+:root{
+    --grey-color:#6F8BA4;
+}
+
 .topbar{
     background-color: var(--blue-color);
 }
@@ -12,14 +16,18 @@
 .fs-7{
     font-size: 14px;
 }
-.nav-item:hover .nav-item {
 
-}
 .mt-7{
     margin-top: 70px;
 }
+.fs-9{
+    font-size: 80px;
+}
+.mt-10{
+    margin-top: 220px;
+}
 .py-8{
-    padding: 70px 0px;
+    padding: 50px 0px;
 }
 .mb-6{
     margin-bottom: 40px;
@@ -32,7 +40,9 @@ font-size: 60px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 100vh;}
+    min-height: 100vh;
+z-index: 1;
+}
    
 .divider{
     width: 50px;
@@ -48,7 +58,7 @@ font-size: 60px;
     color: var(--blue-color);
 }
 #hero .paragraph-color{
-        color: #6F8BA4;
+        color:var(--grey-color);
         font-size: 17px;
 
 }
@@ -61,15 +71,112 @@ font-size: 60px;
 
 /* section shedule start */
 
-.shedule-btn{
-    background-color: var(--blue-colors);
+ #shedule .shedule-btn{
+    background-color: var(--blue-color);
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+ }
+
+#shedule .icon-nurse{
+    color: var(--blue-color);
+}
+#shedule .paragraph-color{
+    color: var(--grey-color );
+}
+#shedule .heading-color{
+    color: var(--blue-color);
+}
+.cards{
+
 }
 
+.card1{
+    margin-top: -150px;
+    z-index: 99999;
+background-color: white;
+border-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.card2{
+    margin-top: -150px;
+    z-index: 99999;
+background-color: white;
+border-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.card3{
+    margin-top: -150px;
+
+background-color: white;
+
+}
+.card-radius{
+    border-radius: 15px;
+}
+/* section shedule end */
+
+/* section personal care start */
+   .bg-color{
+    background-color: #e12454;
+    padding-right: 70px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+   }
+#personal .heading{
+    color: var(--blue-color);
+}
+.paragraph-color{
+    color: var(--grey-color);
+}
+
+/* section personal care end */
+
+/* section information start */
 
 
+#personal-info{
+    
+        
+}
+ .bgc-image{
+    background-image:url("../imgs/bg-4.jpg");
+    width: 100%;
+ }
 
 
+.backg-color{
+    background-color: var(--blue-color);
+    opacity: 90%;
+}
+            
+
+    
 
 
+#personal-info .personal-info-hea{
+    font-size: 80px;
+    font-weight: bold;
+}
+#personal-info .personal-info-par{
+    color: rgba(239, 236, 236, 0.936);
+}
 
+.personal-ico{
+    color: var(--grey-color);
+    opacity: 15%;
+    position: absolute;
+    left: 49px;
+    top: -10px;
+}
+
+/* section information end *
+
+
+/* section information start  */
+
+#agwards .heading-p{
+    color: var(--blue-color);
+}
 
