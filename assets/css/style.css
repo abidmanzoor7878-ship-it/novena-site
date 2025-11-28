@@ -197,9 +197,36 @@ background-color: white;
 }
 .grey-color{
     color: var(--grey-color);
-}
 
+}
+.blue-color{
+    color: var(--blue-color);
+}
+.blue-bcolor{
+    background-color: var(--blue-color);
+}
 #awards .icon-color{
     color: #e12454;
 }
+.appoint-img{
+    width: 450px;
+    
+}
+.form-select , .form-control{
+    border-radius: 0px;
+}
+.appoint-btn{
+    background: var(--blue-color);
+}
+.appoint-phone {
+    position: absolute;
+    left: 95px;
+    top: 503px;
+    width: 40%;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+
 
