@@ -27,7 +27,7 @@
     margin-top: 220px;
 }
 .py-8{
-    padding: 50px 0px;
+    padding: 80px 0px;
 }
 .mb-6{
     margin-bottom: 40px;
@@ -171,7 +171,7 @@ background-color: white;
 
 /* section information start  */
 
-#awards .heading-color{
+ .heading-color{
     color: var(--blue-color);
     margin-bottom: 20px;
     font-weight: 700;
@@ -189,7 +189,7 @@ background-color: white;
 .bg-color{
     background-color: #f4f9fc;
 }
-#awards .awards-p{
+ .awards-p{
     color: var(--grey-color);
 }
 .awards-icons{
@@ -226,7 +226,15 @@ background-color: white;
     font-size: 36px;
     font-weight: 800;
 }
+/* section awards end  */
 
 
+/* section served start  */
+.served-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border:solid 4px grey ;
+}
 
-
+/* section served end  */
