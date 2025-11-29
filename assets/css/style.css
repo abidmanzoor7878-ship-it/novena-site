@@ -115,7 +115,7 @@ background-color: white;
 /* section shedule end */
 
 /* section personal care start */
-   .bg-color{
+   .bga-color{
     background-color: #e12454;
     padding-right: 70px;
     padding-top: 14px;
@@ -158,7 +158,7 @@ background-color: white;
     color: rgba(239, 236, 236, 0.936);
 }
 
-.personal-ico{
+#personal-info .personal-ico{
     color: var(--grey-color);
     opacity: 15%;
     position: absolute;
@@ -231,10 +231,77 @@ background-color: white;
 
 /* section served start  */
 .served-img{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
-    border:solid 4px grey ;
+    border:solid 4px #eff0f3 ;
+}
+.served-color{
+    background-color: #f4f9fc;
+}
+.served-para{
+   font-size: 18px; 
+   
+}
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 49%;
+    }
+
 }
 
+.shadow {
+    box-shadow: 0 0 0rem rgba(0, 0, 0, 0.15) ;
+}
+ 
+.served-ico{
+    position: absolute;
+    left: 470px;
+    top: 205px;
+    color: #df597bb6;
+
+    
+}
+#served .quomas i{
+    font-size: 60px;
+}
 /* section served end  */
+
+
+.footer-icon{
+    width: 45px;
+    height: 45px;
+    background-color:#6F8BA4 ;
+        padding: 15px;
+    border-radius: 100%;
+}
+
+.divider{
+        width: 50px;
+    height: 3px;
+    background-color: red;
+    
+    
+}
+.margin-class{
+    margin-bottom: 40px;
+}
+
+.subscribe .form-control {
+    height: 60px;
+    padding-left: 25px;
+    border-radius: 50px;
+    border-color: rgb(238, 238, 238);
+    
+}
+.btn {
+position: absolute;
+background-color: #e12454;
+  left: 947px;
+    top: 2px;
+}
+.btn:hover{
+    background: var(--blue-color);
+}
+
