@@ -23,6 +23,7 @@
     margin-top: 70px;
 }
 
+
 .fs-9 {
     font-size: 80px;
 }
@@ -41,6 +42,18 @@
 
 .fs-00 {
     font-size: 60px;
+}
+.hover-line::after{
+    content: "";
+    width: 0%;
+    display: block;
+    height: 2px;
+    background-color: #e12454;
+    transition: all ease 0.3s;
+}
+.hover-line:hover::after{
+width: 100%;
+ transition: all ease 0.3s;
 }
 
 #hero {
@@ -378,9 +391,11 @@
 .mt-10 {
     margin-top: 220px;
 }
-.mt-9{
+
+.mt-9 {
     margin-top: 165px;
 }
+
 .py-8 {
     padding: 80px 0px;
 }
@@ -401,10 +416,10 @@
     background-position: center center;
     height: 330px;
 
-    
+
 }
 
-.back-color{
+.back-color {
     background: var(--blue-color);
     opacity: 90%;
     width: 100%;
@@ -413,9 +428,11 @@
     left: 0px;
     top: 138px;
 }
-.s-about{
+
+.s-about {
     margin-top: 10%;
 }
+
 .divide {
     width: 50px;
     height: 5px;
@@ -427,33 +444,45 @@
 /* section about end */
 
 /* section achievement start  */
-.achieve-img{
-    
+.achieve-img {
+
     height: 120px;
     background-color: #eff0f3;
     font-size: 40px;
 }
 
-
+.mb-7{
+    margin-bottom: 80px;
+}
 
 
 
 /* -section achievement end  */
 
- .say-img{
-background-image: url("../imgs/bg-2.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-min-height:120vh  ;
-margin-bottom: 80px;
+.say-img {
+    background-image: url("../imgs/bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 120vh;
+    margin-bottom: 80px;
+}
+/* page about complete */
+
+/* page services start */
+.special-img{
+    margin-top: -23px;
 }
 
+#service-man{
+    background-image: url("../imgs/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: center;
+min-height: 130vh;
+}
 
-
-
-
-
-
-
+.service-btn{
+    
+}
 
